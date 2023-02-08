@@ -1,7 +1,5 @@
 setup:
-	rm ~/.zshrc
-	rm -rf ~/.config/ulauncher
-	rm -rf ~/.config/i3
-	ln -s ~/dotfiles/.zshrc ~/.zshrc
-	ln -s ~/dotfiles/ulauncher ~/.config/ulauncher
-	ln -s ~/dotfiles/i3 ~/.config/i3
+	ln -sf ~/dotfiles/.zshrc ~/.zshrc
+	ln -sf ~/dotfiles/ulauncher ~/.config/ulauncher
+	ln -sf ~/dotfiles/i3 ~/.config/i3
+	ln -sf ~/dotfiles/picom.conf ~/.config/picom/picom.conf

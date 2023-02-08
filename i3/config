@@ -219,6 +219,7 @@ title_align center
 # Startup apps
 exec 1password --silent
 exec --no-startup-id ulauncher
+exec picom
 
 # Layout
 exec_always "setxkbmap -layout us -variant intl"
@@ -246,5 +247,4 @@ bindsym $mod+Shift+End exec "systemctl suspend"
 exec "setxkbmap -layout us -variant intl"
 
 # Enable touchpad tap to click
-exec "xinput set-prop \"PIXA3854:00 093A:0274 Touchpad\" \"libinput Tapping Enabled\" 1"
-
+exec "xinput set-prop 9 \"libinput Tapping Enabled\" 1"
