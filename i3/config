@@ -219,7 +219,7 @@ title_align center
 
 # Startup apps
 exec 1password --silent
-exec ulauncher
+#exec ulauncher
 exec picom
 #exec protonvpn
 # Layout
