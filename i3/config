@@ -221,7 +221,7 @@ title_align center
 exec 1password --silent
 exec ulauncher
 exec picom
-exec protonvpn
+#exec protonvpn
 # Layout
 exec_always "setxkbmap -layout us -variant intl"
 
