@@ -207,10 +207,14 @@ client.background       #FFFFFF
 #}
 
 ## CUSTOM
+# CheatSheet
+bindsym $mod+Shift+h exec feh ~/Pictures/vim-2.png
+
 exec polybar -r
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
+exec feh --bg-scale /home/$USER/Pictures/wp1.jpg
 
 ## Windows
 default_border pixel 1
