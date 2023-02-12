@@ -210,7 +210,7 @@ client.background       #FFFFFF
 # CheatSheet
 bindsym $mod+Shift+h exec feh ~/Pictures/vim-2.png
 
-exec polybar -r
+exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
