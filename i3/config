@@ -220,6 +220,8 @@ exec feh --bg-scale /home/$USER/Pictures/wp1.jpg
 default_border pixel 1
 default_floating_border pixel 1
 title_align center
+exec_always "bash ./scripts/auto-display.sh" 
+exec xrandr --dpi 96
 
 # Startup apps
 exec 1password --silent
