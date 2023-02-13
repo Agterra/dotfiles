@@ -214,7 +214,7 @@ exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
-exec feh --bg-scale /home/$USER/Pictures/wp1.jpg
+exec feh --bg-scale /home/$USER/Pictures/wp3.jpg
 
 ## Windows
 default_border pixel 1
@@ -254,4 +254,4 @@ bindsym $mod+Shift+End exec "systemctl suspend"
 exec "setxkbmap -layout us -variant intl"
 
 # Enable touchpad tap to click (xinput for prop id)
-exec 'xinput set-prop "PIXA3854:00 093A:0274 Touchpad" "libinput Tapping Enable" 1'
+exec_always xinput set-prop "PIXA3854:00 093A:0274 Touchpad" "libinput Tapping Enabled" 1
