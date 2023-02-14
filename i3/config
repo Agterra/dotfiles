@@ -214,7 +214,7 @@ exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
-exec feh --bg-scale /home/$USER/Pictures/wp3.jpg
+exec feh --bg-scale /home/$USER/Pictures/wp3.png
 
 ## Windows
 default_border pixel 1
