@@ -248,7 +248,7 @@ exec_always sh ~/.config/i3/scripts/clamshell.sh
 bindsym $mod+Shift+s exec "maim -s | xclip -selection clipboard -t image/png"
 
 # Hibernate
-bindsym $mod+Shift+End exec "systemctl suspend"
+bindsym $mod+Shift+End exec "i3lock --color 000000 && systemctl suspend"
 
 # Default keyboard layout
 exec "setxkbmap -layout us -variant intl"
