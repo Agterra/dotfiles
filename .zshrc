@@ -20,3 +20,6 @@ export PATH=$PATH:/home/$USER/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:/home/louis/.cargo/bin
 
+if [ -d "$HOME/platform-tools" ] ; then
+    PATH="$HOME/platform-tools:$PATH"
+fi

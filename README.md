@@ -91,3 +91,14 @@ exec i3
 ```
 
 And you're good to go :)
+
+## Non-working backlight keys
+
+If the keys for screen brightness are not working, try the following:
+
+
+```bash
+sudo grubby --update-kernel=ALL --args="module_blacklist=hid_sensor_hub"
+```
+
+Then reboot and the keys should be working again
