@@ -1,3 +1,5 @@
+# Steps to include inside the ansible project
+
 sudo dnf update -y
 cd ~/dotfiles && make setup
 

@@ -12,13 +12,12 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=$PATH:/home/$USER/.local/bin
 
-alias appsolute=/home/$USER/Documents/Appsolute
 alias perso=/home/$USER/Documents/Perso
 alias code=codium
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/$USER/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
-export PATH=$PATH:/home/louis/.cargo/bin
+export PATH=$PATH:/home/$USER/.cargo/bin
 
 if [ -d "$HOME/platform-tools" ] ; then
     PATH="$HOME/platform-tools:$PATH"
