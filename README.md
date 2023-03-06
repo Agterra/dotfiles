@@ -103,12 +103,4 @@ sudo grubby --update-kernel=ALL --args="module_blacklist=hid_sensor_hub"
 
 Then reboot and the keys should be working again
 
-## Setup Hibernate
-- Use systemd zram
-- Check on zram values with `swapon`
-- Update zram values in file `/usr/lib/systemd/zram-generator.conf` (factor=0.5 is ok, max ≃ 1/2 or RAM)
-- Retrieve the UUID of your ZRAM with `sudo systemctl status systemd-zram-setup@zram0.service`
-- Edit `/etc/default/grub` and update the `GRUB_CMDLINE_LINUX` by adding `resume=UUID=<zram uuid>`
-- Update grub file with `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
-- Update `/etc/systemd/sleep.conf` with `AllowHibernation=YES` and `HibernateMode=platform shutdown`
-- reboot and check everything (audio, keys, ...)
+## Setup Hibernate (TO DO)
