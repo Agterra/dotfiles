@@ -102,3 +102,5 @@ sudo grubby --update-kernel=ALL --args="module_blacklist=hid_sensor_hub"
 ```
 
 Then reboot and the keys should be working again
+
+## Setup Hibernate (TO DO)
