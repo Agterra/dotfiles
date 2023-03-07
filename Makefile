@@ -4,3 +4,4 @@ setup:
 	rm -rf ~/.config/i3 ; ln -sf ~/dotfiles/i3/ ~/.config/i3
 	rm -rf ~/.config/picom ; ln -sf ~/dotfiles/picom/ ~/.config/picom
 	rm -rf ~/.config/polybar ; ln -sf ~/dotfiles/polybar/ ~/.config/polybar
+	rm -rf ~/.config/dunst ; ln -sf ~/dotfiles/dunst/ ~/.config/dunst 
