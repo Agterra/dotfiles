@@ -22,7 +22,6 @@ export PATH=$PATH:/home/$USER/.local/bin
 alias perso=/home/$USER/Documents/Perso
 alias code=codium
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/$USER/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:/home/$USER/.cargo/bin
 
