@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 12 
+font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -59,10 +59,10 @@ bindsym Mod1+d exec --no-startup-id "dmenu_run -nf '#BBBBBB' -nb '#222222' -sb '
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-# bindsym $mod+j focus left
-# bindsym $mod+k focus down
-# bindsym $mod+l focus up
-# bindsym $mod+semicolon focus right
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -71,10 +71,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-# bindsym $mod+Shift+j move left
-# bindsym $mod+Shift+k move down
-# bindsym $mod+Shift+l move up
-# bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -150,7 +150,8 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Logout ?' -B 'Yes' 'i3msg exit'"
+bindsym $mod+Shift+e exec i3-msg exit
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -190,7 +191,6 @@ client.background       #FFFFFF
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 #bar {
-#  position top
 #  colors {
 #    background #111122
 #    statusline #FFFFFF
@@ -205,54 +205,47 @@ client.background       #FFFFFF
 #  status_command i3status
 #}
 
+exec xmobar
 ## CUSTOM
-# CheatSheet
-bindsym $mod+Shift+h exec feh ~/Pictures/vim-2.png
 
-exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
-exec feh --bg-scale /home/$USER/Pictures/wp3.png
 
 ## Windows
 default_border pixel 1
 default_floating_border pixel 1
 title_align center
-exec_always "bash ./scripts/auto-display.sh" 
-exec xrandr --dpi 96
 
 # Startup apps
 exec 1password --silent
-#exec ulauncher
+exec --no-startup-id ulauncher
 exec picom
-#exec protonvpn
+
 # Layout
 exec_always "setxkbmap -layout us -variant intl"
 
 # Controls
-bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
-bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +10%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -10%
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 
 # Auto Screen Layout
-exec_always sh ~/.config/i3/scripts/clamshell.sh
+exec_always sh ~/.config/i3/scripts/auto-display.sh
 
 # Interactive screenshot
-bindsym $mod+Shift+s exec "maim -s | xclip -selection clipboard -t image/png"
+bindsym --release $mod+Shift+s exec "scrot -s -e 'xclip -selection clipboard -t image/png -i $f' $HOME/Pictures/captures/capture.png"
 
-# System
-bindsym $mod+Shift+l exec "i3-nagbar -t warning -m 'Shutdown ?' -B 'Yes' 'systemctl poweroff -i'"
-
-bindsym $mod+l exec "systemctl suspend"
+# Hibernate
+bindsym $mod+Shift+End exec "systemctl suspend"
 
 # Default keyboard layout
 exec "setxkbmap -layout us -variant intl"
 
-# Enable touchpad tap to click (xinput for prop id)
-exec_always xinput set-prop "PIXA3854:00 093A:0274 Touchpad" "libinput Tapping Enabled" 1
+# Enable touchpad tap to click
+exec "xinput set-prop 9 \"libinput Tapping Enabled\" 1"
