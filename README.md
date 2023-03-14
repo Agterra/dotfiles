@@ -1,5 +1,7 @@
 # Troubleshooting
 
+This project contains my dotfiles, but also some troubleshooting on various system I work/play on.
+
 # Dual Boot Windows
 
 ## Install GRUB
