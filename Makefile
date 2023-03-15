@@ -1,3 +1,12 @@
+install_fedora:
+	sudo dnf update -y \
+		&& sudo dnf install -y \
+			dunst \
+			i3 \
+			picom \
+			polybar \
+			ulauncher 
+
 setup:
 	mkdir -p $(HOME)/Pictures/captures
 	rm ~/.zshrc ; ln -sf ~/dotfiles/.zshrc ~/.zshrc
