@@ -211,7 +211,7 @@ client.background       #FFFFFF
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
-exec_always feh --bg-scale /home/$USER/Pictures/wp3.png
+exec_always feh --bg-scale /home/$USER/Pictures/starry.png
 
 ## Windows
 default_border pixel 1

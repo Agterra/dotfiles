@@ -5,7 +5,9 @@ install_fedora:
 			i3 \
 			picom \
 			polybar \
-			ulauncher 
+			ulauncher \
+			fontawesome5-fonts \
+			fontawesome5-free-fonts 
 
 setup:
 	mkdir -p $(HOME)/Pictures/captures
