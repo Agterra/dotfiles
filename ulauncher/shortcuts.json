@@ -9,26 +9,6 @@
         "run_without_argument": false,
         "added": 1660055174.1278296
     },
-    "8bb25c14-e944-40ec-89aa-79e2aace75b5": {
-        "id": "8bb25c14-e944-40ec-89aa-79e2aace75b5",
-        "name": "Appsolute Git",
-        "keyword": "gitlab",
-        "cmd": "#!/usr/bin/bash\nchromium-browser \"https://appsolute-git.fr/search?search=$1&nav_source=navbar\"",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": false,
-        "added": 1660055393.0754538
-    },
-    "49f8606d-cb9d-465b-b222-f61e0aca3687": {
-        "id": "49f8606d-cb9d-465b-b222-f61e0aca3687",
-        "name": "GCP",
-        "keyword": "gcp",
-        "cmd": "#!/usr/bin/bash\nchromium-browser \"https://console.cloud.google.com/search;q=type:project%20$1\"",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": false,
-        "added": 1660055470.9283845
-    },
     "4bcf4b25-d756-493e-98c6-1f2b68d8fe06": {
         "id": "4bcf4b25-d756-493e-98c6-1f2b68d8fe06",
         "name": "My SSH",
@@ -69,26 +49,6 @@
         "run_without_argument": true,
         "added": 1660056453.8700855
     },
-    "6a9e6e81-fab4-463e-84d1-f928b0bebe85": {
-        "id": "6a9e6e81-fab4-463e-84d1-f928b0bebe85",
-        "name": "Clockify",
-        "keyword": "clockify",
-        "cmd": "#!/usr/bin/bash\nchromium-browser https://app.clockify.me/tracker",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660058723.4079614
-    },
-    "997bf6ee-9ca7-4e21-90b5-9b2e318d73dc": {
-        "id": "997bf6ee-9ca7-4e21-90b5-9b2e318d73dc",
-        "name": "Cloud tickets",
-        "keyword": "cloudtickets",
-        "cmd": "#!/usr/bin/bash\nchromium-browser https://appsolute-git.fr/cloud/tickets/-/issues",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660121760.2217128
-    },
     "997bf6ee-9ca7-4e21-90b5-9b2e318d73dq": {
         "id": "997bf6ee-9ca7-4e21-90b5-9b2e318d73dq",
         "name": "Trello",
@@ -98,56 +58,6 @@
         "is_default_search": false,
         "run_without_argument": true,
         "added": 1660121760.2217128
-    },
-    "16c0f5aa-f252-4060-ab3e-d8c262bb72fc": {
-        "id": "16c0f5aa-f252-4060-ab3e-d8c262bb72fc",
-        "name": "Mails Pro",
-        "keyword": "gmail",
-        "cmd": "#!/usr/bin/bash\nchromium-browser https://mail.google.com/mail/u/0/#inbox",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660725931.4162087
-    },
-    "614fcdea-47a3-486d-bf26-beba9abfd448": {
-        "id": "614fcdea-47a3-486d-bf26-beba9abfd448",
-        "name": "Google Calendar",
-        "keyword": "gcal",
-        "cmd": "#!/usr/bin/bash\nchromium-browser https://calendar.google.com/calendar/u/0/r",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660726006.658344
-    },
-    "92bda7cb-9d3e-4000-a6c4-c2e1d1efffb7": {
-        "id": "92bda7cb-9d3e-4000-a6c4-c2e1d1efffb7",
-        "name": "Open with vscode",
-        "keyword": "code",
-        "cmd": "#!/usr/bin/bash\ncodium $(find -L $HOME/Documents -type d -iname \"*$1*\" | head -1)",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": false,
-        "added": 1660729080.621894
-    },
-    "719c6e5c-2d2c-4ad7-ac46-e9871e68dc49": {
-        "id": "719c6e5c-2d2c-4ad7-ac46-e9871e68dc49",
-        "name": "Update system",
-        "keyword": "sysupdate",
-        "cmd": "#!/usr/bin/zsh\ngnome-terminal -- sh -c 'sudo apt update && sudo apt upgrade -y && sudo apt autoremove && brew upgrade'",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660827838.273672
-    },
-    "9bdf1411-9c64-463e-9acb-2b5db365c371": {
-        "id": "9bdf1411-9c64-463e-9acb-2b5db365c371",
-        "name": "appsolute",
-        "keyword": "appsolute",
-        "cmd": "#!/usr/bin/bash\nopen ~/Documents/appsolute",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1666007102.8277705
     },
     "f60206e8-243f-49c2-912e-52fbe6a908d8": {
         "id": "f60206e8-243f-49c2-912e-52fbe6a908d8",
