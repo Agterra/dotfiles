@@ -9,6 +9,17 @@ install_fedora:
 			fontawesome5-fonts \
 			fontawesome5-free-fonts 
 
+install_debian:
+	sudo apt update -y \
+		&& sudo apt install -y \
+			dunst \
+			i3 \
+			picom \
+			polybar \
+			ulauncher \
+			fontawesome5-fonts \
+			fontawesome5-free-fonts
+
 setup:
 	mkdir -p $(HOME)/Pictures/captures
 	rm ~/.zshrc ; ln -sf ~/dotfiles/.zshrc ~/.zshrc
