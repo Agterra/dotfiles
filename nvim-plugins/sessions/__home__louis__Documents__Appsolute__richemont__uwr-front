@@ -1,0 +1,94 @@
+let SessionLoad = 1
+let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+let v:this_session=expand("<sfile>:p")
+silent only
+silent tabonly
+cd ~
+if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
+  let s:wipebuf = bufnr('%')
+endif
+let s:shortmess_save = &shortmess
+if &shortmess =~ 'A'
+  set shortmess=aoOA
+else
+  set shortmess=aoO
+endif
+badd +31 Documents/Appsolute/richemont/uwr-front/sitemap.xml
+badd +1 Documents/Appsolute/richemont/uwr-front/robots.txt
+badd +1 Documents/Appsolute/richemont/uwr-front/robots-nprod.txt
+badd +1 Documents/Appsolute/richemont/uwr-front/release_notes.txt
+badd +10 Documents/Appsolute/richemont/uwr-front/index.tsx
+badd +1 Documents/Appsolute/richemont/uwr-front/index.html
+badd +25 Documents/Appsolute/richemont/uwr-front/src/services/AmazonService.ts
+badd +123 Documents/Appsolute/richemont/uwr-front/src/services/AuthService.ts
+badd +81 Documents/Appsolute/richemont/uwr-front/src/services/ContentService.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/services/GoogleService.ts
+badd +23 Documents/Appsolute/richemont/uwr-front/src/services/LocalService.ts
+badd +280 Documents/Appsolute/richemont/uwr-front/src/services/PieceService.ts
+badd +83 Documents/Appsolute/richemont/uwr-front/src/services/PrismicService.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/services/TaskService.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/services/TechnicalService.ts
+badd +36 Documents/Appsolute/richemont/uwr-front/src/services/UserService.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/mappers/ErrorMapper.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/mappers/PieceMapper.ts
+badd +41 Documents/Appsolute/richemont/uwr-front/src/mappers/RegistryMapper.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/ContactInput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/ImageOutput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/OwnershipCodeOutput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/PieceTypeOutput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/RoleOutput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/entities/ExportPieceInput.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/Router/HistoryStackContext.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/Router/PrivacyRoute.tsx
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/Redux/Reducer.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/Redux/RootState.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/Redux/Store.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/I18n/locales/de.json
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/I18n/locales/es.json
+badd +1 Documents/Appsolute/richemont/uwr-front/src/core/I18n/locales/fr.json
+badd +39 Documents/Appsolute/richemont/uwr-front/src/containers/OurPartners/OurPartners.style.ts
+badd +53 Documents/Appsolute/richemont/uwr-front/src/containers/OurPartners/OurPartners.tsx
+badd +1 Documents/Appsolute/richemont/uwr-front/src/constants/CaptchaAction.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/constants/AdminConfig.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/constants/DocType.ts
+badd +1 Documents/Appsolute/richemont/uwr-front/src/components/CockpitSectionItem.tsx
+badd +1 Documents/Appsolute/richemont/uwr-front/docs/architecture.png
+badd +0 Documents/Appsolute/richemont/uwr-front/docs/cicd.png
+argglobal
+%argdel
+edit Documents/Appsolute/richemont/uwr-front/docs/cicd.png
+argglobal
+balt Documents/Appsolute/richemont/uwr-front/docs/architecture.png
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+lcd ~/Documents/Appsolute/richemont/uwr-front
+if exists(':tcd') == 2 | tcd ~/Documents/Appsolute/richemont/uwr-front | endif
+tabnext 1
+if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+  silent exe 'bwipe ' . s:wipebuf
+endif
+unlet! s:wipebuf
+set winheight=1 winwidth=20
+let &shortmess = s:shortmess_save
+let s:sx = expand("<sfile>:p:r")."x.vim"
+if filereadable(s:sx)
+  exe "source " . fnameescape(s:sx)
+endif
+let &g:so = s:so_save | let &g:siso = s:siso_save
+doautoall SessionLoadPost
+unlet SessionLoad
+" vim: set ft=vim :

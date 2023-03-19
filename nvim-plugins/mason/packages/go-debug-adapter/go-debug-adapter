@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec node "/home/louis/.local/share/nvim/mason/packages/go-debug-adapter/extension/dist/debugAdapter.js" "$@"

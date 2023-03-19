@@ -1,0 +1,143 @@
+[ERROR Wed 08 Feb 2023 04:56:27 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[INFO  Thu 09 Feb 2023 02:27:57 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:28:00 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:28:01 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:28:10 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:28:11 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:28:13 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:28:13 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:39 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:39 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:40 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:40 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:41 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:41 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:41 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:42 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:42 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:42 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:42 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:42 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:43 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:43 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:43 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 02:47:43 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 09 Feb 2023 02:47:43 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Thu 09 Feb 2023 04:04:50 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/vibe-radio/terraform :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/vibe-radio/terraform
+[ERROR Thu 09 Feb 2023 04:05:01 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/vibe-radio/terraform :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/vibe-radio/terraform
+[ERROR Thu 09 Feb 2023 04:05:04 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/vibe-radio/terraform :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/vibe-radio/terraform
+[INFO  Thu 09 Feb 2023 04:32:00 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Feb 2023 05:46:39 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Fri 10 Feb 2023 09:08:35 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Sun 12 Feb 2023 04:23:36 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Sun 12 Feb 2023 07:35:45 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 13 Feb 2023 09:57:05 AM CET] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:169: Copied template to clipboard
+[INFO  Mon 13 Feb 2023 01:59:04 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Mon 13 Feb 2023 04:14:56 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Keyboard interrupt
+[ERROR Mon 13 Feb 2023 04:15:00 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[ERROR Tue 14 Feb 2023 12:07:35 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[INFO  Tue 14 Feb 2023 02:08:10 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Tue 14 Feb 2023 02:10:23 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[ERROR Tue 14 Feb 2023 02:28:17 PM CET] ...k/packer/opt/neo-tree.nvim/lua/neo-tree/events/queue.lua:201: Error in event handler for event vim_win_enter[neo-tree-win-enter]: ...ack/packer/opt/neo-tree.nvim/lua/neo-tree/setup/init.lua:253: Vim(quit):E37: No write since last change
+[INFO  Wed 15 Feb 2023 08:32:58 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Wed 15 Feb 2023 08:51:42 PM CET] ...k/packer/opt/neo-tree.nvim/lua/neo-tree/events/queue.lua:201: Error in event handler for event vim_win_enter[neo-tree-win-enter]: ...ack/packer/opt/neo-tree.nvim/lua/neo-tree/setup/init.lua:253: Vim(quit):E37: No write since last change
+[ERROR Wed 15 Feb 2023 08:54:27 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:123: debounce  neo-tree-follow  error:  ...nvim/site/pack/packer/opt/nui.nvim/lua/nui/tree/init.lua:254: Expected Lua number
+[INFO  Wed 15 Feb 2023 08:55:54 PM CET] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:169: Copied index.js to clipboard
+[INFO  Wed 15 Feb 2023 08:57:15 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 16 Feb 2023 10:30:29 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 16 Feb 2023 11:07:25 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 16 Feb 2023 11:40:31 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed index.js successfully
+[INFO  Wed 22 Feb 2023 03:10:32 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Fri 24 Feb 2023 10:53:37 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 27 Feb 2023 09:46:38 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Mon 27 Feb 2023 09:50:44 AM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Perso/node/amamtg/src/classes :  ENOENT: no such file or directory: /home/louis/Documents/Perso/node/amamtg/src/classes
+[ERROR Mon 27 Feb 2023 09:50:50 AM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Perso/node/amamtg/src/classes :  ENOENT: no such file or directory: /home/louis/Documents/Perso/node/amamtg/src/classes
+[ERROR Mon 27 Feb 2023 11:32:17 AM CET] ...k/packer/opt/neo-tree.nvim/lua/neo-tree/events/queue.lua:201: Error in event handler for event vim_win_enter[neo-tree-win-enter]: ...ack/packer/opt/neo-tree.nvim/lua/neo-tree/setup/init.lua:253: Vim(quit):E37: No write since last change
+[INFO  Mon 27 Feb 2023 11:44:35 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 27 Feb 2023 11:45:21 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Tue 28 Feb 2023 09:59:15 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Tue 28 Feb 2023 04:02:27 PM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[INFO  Wed 01 Mar 2023 11:23:16 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 11:23:19 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 01 Mar 2023 11:38:16 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 11:38:17 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 01 Mar 2023 02:40:11 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 03:37:32 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 03:37:33 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 01 Mar 2023 03:37:33 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 03:37:35 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 01 Mar 2023 03:37:37 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 01 Mar 2023 03:37:49 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 01 Mar 2023 03:37:50 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 02 Mar 2023 11:24:47 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 02 Mar 2023 11:24:49 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 02 Mar 2023 02:28:48 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 02 Mar 2023 02:31:50 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 06 Mar 2023 03:42:22 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Tue 07 Mar 2023 11:18:39 AM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[ERROR Wed 08 Mar 2023 08:59:08 AM CET] ...ite/pack/packer/opt/neo-tree.nvim/lua/neo-tree/utils.lua:514: Error opening file: Vim(buffer):E325: ATTENTION
+[INFO  Wed 08 Mar 2023 09:30:43 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 08 Mar 2023 09:35:05 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/dotfiles/OME
+[INFO  Wed 08 Mar 2023 03:00:19 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/dotfiles/polybar/scripts
+[INFO  Thu 09 Mar 2023 11:04:48 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Mar 2023 11:13:51 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Mar 2023 11:13:53 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[ERROR Thu 09 Mar 2023 04:21:40 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/scrap_alpine/Documents/Appsolute :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/scrap_alpine/Documents/Appsolute
+[ERROR Thu 09 Mar 2023 04:21:40 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/scrap_alpine/Documents :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/scrap_alpine/Documents
+[INFO  Thu 09 Mar 2023 04:24:01 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 09 Mar 2023 04:24:46 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Appsolute/scrap_alpine/node_modules
+[INFO  Thu 09 Mar 2023 05:20:30 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed template.mustache successfully
+[INFO  Thu 09 Mar 2023 05:41:14 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 13 Mar 2023 09:32:37 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 13 Mar 2023 09:37:37 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed routes successfully
+[INFO  Mon 13 Mar 2023 09:44:26 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed authenticate.ts successfully
+[INFO  Mon 13 Mar 2023 09:58:04 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Mon 13 Mar 2023 09:58:04 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Mon 13 Mar 2023 10:59:10 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:164: Could not move the files from /home/louis/Documents/Appsolute/scrap_alpine/dist to /home/louis/Documents/Appsolute/scrap_alpine/dist/alpine-bot-api : EINVAL: invalid argument: /home/louis/Documents/Appsolute/scrap_alpine/dist -> /home/louis/Documents/Appsolute/scrap_alpine/dist/alpine-bot-api
+[ERROR Mon 13 Mar 2023 11:00:01 AM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/scrap_alpine/src :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/scrap_alpine/src
+[ERROR Mon 13 Mar 2023 11:00:01 AM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/scrap_alpine/src/bot :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/scrap_alpine/src/bot
+[ERROR Mon 13 Mar 2023 11:00:10 AM CET] ...k/packer/opt/neo-tree.nvim/lua/neo-tree/events/queue.lua:201: Error in event handler for event vim_win_enter[neo-tree-win-enter]: ...ack/packer/opt/neo-tree.nvim/lua/neo-tree/setup/init.lua:253: Vim(quit):E37: No write since last change
+[INFO  Mon 13 Mar 2023 11:03:57 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed versions.tf successfully
+[INFO  Mon 13 Mar 2023 11:55:00 AM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 13 Mar 2023 11:55:07 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed template.mustache successfully
+[INFO  Mon 13 Mar 2023 12:03:00 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Appsolute/richemont/veolia
+[INFO  Mon 13 Mar 2023 02:23:51 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Mon 13 Mar 2023 02:33:16 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Mon 13 Mar 2023 04:28:49 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Tue 14 Mar 2023 05:38:03 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Appsolute/scrap_alpine/src :  ENOENT: no such file or directory: /home/louis/Documents/Appsolute/scrap_alpine/src
+[INFO  Tue 14 Mar 2023 06:49:31 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed libs.sh.j2 successfully
+[INFO  Tue 14 Mar 2023 07:36:42 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/dotfiles/scripts
+[INFO  Tue 14 Mar 2023 07:46:38 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed tools successfully
+[INFO  Tue 14 Mar 2023 07:46:40 PM CET] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:169: Copied tools to clipboard
+[ERROR Tue 14 Mar 2023 07:47:06 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:239: Could not copy the file(s) from /home/louis/Documents/Perso/ansible/ansible-setup/roles/tools to /home/louis/Documents/Perso/ansible/ansible-setup/roles/tools/tools : ...m/site/pack/packer/opt/plenary.nvim/lua/plenary/path.lua:497: We couldn't mkdir: /home/louis/Documents/Perso/ansible/ansible-setup/roles/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/tools/templates
+[INFO  Tue 14 Mar 2023 07:47:13 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/tools/tools
+[INFO  Tue 14 Mar 2023 07:50:42 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed fedora successfully
+[INFO  Tue 14 Mar 2023 07:52:06 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/dnf
+[INFO  Tue 14 Mar 2023 08:00:39 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed Dockerfile.debian successfully
+[INFO  Tue 14 Mar 2023 09:17:26 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/brew
+[INFO  Tue 14 Mar 2023 09:17:28 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/flatpak
+[INFO  Tue 14 Mar 2023 09:17:30 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/gaming
+[INFO  Tue 14 Mar 2023 09:17:31 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/oh-my-zsh
+[INFO  Tue 14 Mar 2023 09:17:33 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/ulauncher
+[INFO  Tue 14 Mar 2023 09:17:40 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/Documents/Perso/ansible/ansible-setup/roles/fedora/templates
+[INFO  Wed 15 Mar 2023 02:28:40 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 15 Mar 2023 02:36:08 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Wed 15 Mar 2023 02:36:08 PM CET] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:169: Copied node_modules to clipboard
+[INFO  Wed 15 Mar 2023 02:37:04 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Wed 15 Mar 2023 03:55:09 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed swagger.js successfully
+[INFO  Wed 15 Mar 2023 03:55:45 PM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed swagger.ts successfully
+[INFO  Thu 16 Mar 2023 03:43:11 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Thu 16 Mar 2023 03:58:08 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171 :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171
+[ERROR Thu 16 Mar 2023 03:58:08 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client
+[ERROR Thu 16 Mar 2023 03:58:08 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src
+[ERROR Thu 16 Mar 2023 03:58:08 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src/components :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src/components
+[ERROR Thu 16 Mar 2023 03:58:08 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src/components/Header :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tiw8.tp1.p2213171/client/src/components/Header
+[INFO  Thu 16 Mar 2023 04:58:37 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[INFO  Thu 16 Mar 2023 04:58:38 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: false
+[INFO  Thu 16 Mar 2023 05:33:51 PM CET] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:222: Toggling hidden files: true
+[ERROR Thu 16 Mar 2023 06:21:43 PM CET] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:152: /home/louis/Documents/Fac/correction/tp1/tp1tiw8/tiw8_tp1-master :  ENOENT: no such file or directory: /home/louis/Documents/Fac/correction/tp1/tp1tiw8/tiw8_tp1-master
+[ERROR Sun 19 Mar 2023 10:07:53 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:164: Could not move the files from /home/louis/dotfiles/scripts to /home/louis/dotfiles/scripts/sway : EINVAL: invalid argument: /home/louis/dotfiles/scripts -> /home/louis/dotfiles/scripts/sway
+[ERROR Sun 19 Mar 2023 10:07:58 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:164: Could not move the files from /home/louis/dotfiles/scripts to /home/louis/dotfiles/scripts//sway : EINVAL: invalid argument: /home/louis/dotfiles/scripts -> /home/louis/dotfiles/scripts//sway
+[INFO  Sun 19 Mar 2023 10:08:15 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:545: Renamed waybar.sh successfully
+[INFO  Sun 19 Mar 2023 10:21:39 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/dotfiles/sway
+[INFO  Sun 19 Mar 2023 10:21:40 AM CET] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:464: Deleted directory  /home/louis/dotfiles/waybar

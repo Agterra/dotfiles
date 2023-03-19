@@ -21,9 +21,12 @@ install_debian:
 setup:
 	mkdir -p $(HOME)/Pictures/captures
 	mkdir -p ${HOME}/.config
+	mkdir -p ${HOME}/.local/share/nvim
 	rm ~/.zshrc ; ln -sf ~/dotfiles/.zshrc ~/.zshrc
 	rm -rf ~/.config/ulauncher ; ln -sf ~/dotfiles/ulauncher/ ~/.config/ulauncher
 	rm -rf ~/.config/i3 ; ln -sf ~/dotfiles/i3/ ~/.config/i3
 	rm -rf ~/.config/picom ; ln -sf ~/dotfiles/picom/ ~/.config/picom
 	rm -rf ~/.config/polybar ; ln -sf ~/dotfiles/polybar/ ~/.config/polybar
 	rm -rf ~/.config/dunst ; ln -sf ~/dotfiles/dunst/ ~/.config/dunst 
+	rm -rf ~/.config/nvim ; ln -sf ~/dotfiles/nvim/ ~/.config/nvim 
+	rm -rf ~/.local/share/nvim ; ln -sf ~/dotfiles/nvim-plugins/ ~/.local/share/nvim 
