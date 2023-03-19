@@ -1,1 +1,0 @@
-{"primary_source":{"type":"npm","package":"dockerfile-language-server-nodejs"},"schema_version":"1.0","metrics":{"completion_time":1676362504984,"start_time":1676362501387},"links":{"bin":{"docker-langserver":"node_modules\/.bin\/docker-langserver"}},"secondary_sources":[],"name":"dockerfile-language-server"}
