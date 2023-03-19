@@ -16,12 +16,11 @@ install_debian:
 			i3 \
 			picom \
 			polybar \
-			ulauncher \
-			fontawesome5-fonts \
-			fontawesome5-free-fonts
+			ulauncher 
 
 setup:
 	mkdir -p $(HOME)/Pictures/captures
+	mkdir -p ${HOME}/.config
 	rm ~/.zshrc ; ln -sf ~/dotfiles/.zshrc ~/.zshrc
 	rm -rf ~/.config/ulauncher ; ln -sf ~/dotfiles/ulauncher/ ~/.config/ulauncher
 	rm -rf ~/.config/i3 ; ln -sf ~/dotfiles/i3/ ~/.config/i3
