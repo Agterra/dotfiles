@@ -78,5 +78,15 @@
         "is_default_search": false,
         "run_without_argument": true,
         "added": 1673342791.978984
+    },
+    "7d1970e9-3701-4c45-b0f3-040d327d24bc": {
+        "id": "7d1970e9-3701-4c45-b0f3-040d327d24bc",
+        "name": "Clockify",
+        "keyword": "clockify",
+        "cmd": "#!/usr/bin/bash\nchromium-browser https://app.clockify.me/tracker#",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1679471789.4554489
     }
 }

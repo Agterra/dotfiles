@@ -106,3 +106,21 @@ sudo grubby --update-kernel=ALL --args="module_blacklist=hid_sensor_hub"
 Then reboot and the keys should be working again
 
 ## Setup Hibernate (TO DO)
+
+## Create desktop shortcuts
+
+Usually they are stored in either `/usr/share/applications` or `~/.local/share/applications`.
+The icons for them can be in either `/usr/share/icons` or `~/.local/share/icons`
+
+A basic .desktop file structure is as follow:
+
+```
+[Desktop Entry]
+Name=AppName
+Exec=/path/to/bin/or/AppImage
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/appicon.png
+Comment=Application comment
+Categories=Office;
+```
