@@ -2,6 +2,10 @@
 
 This project contains my dotfiles, but also some troubleshooting on various system I work/play on.
 
+# Add SSH key for specific git projet
+
+`git config --add --local core.sshCommand 'ssh -i <<<PATH_TO_SSH_KEY>>>'`
+
 # Dual Boot Windows
 
 ## Install GRUB
