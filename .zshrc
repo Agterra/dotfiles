@@ -22,8 +22,9 @@ export PATH=$PATH:/home/$USER/.local/bin
 alias perso=/home/$USER/Documents/Perso
 alias code=codium
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
-export PATH=$PATH:/home/$USER/.cargo/bin
+export PATH=$PATH:$HOME/.cargo/bin
 
 if [ -d "$HOME/platform-tools" ] ; then
     PATH="$HOME/platform-tools:$PATH"
@@ -31,3 +32,4 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
