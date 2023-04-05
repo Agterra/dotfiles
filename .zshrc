@@ -21,6 +21,8 @@ export PATH=$PATH:/home/$USER/.local/bin
 
 alias perso=/home/$USER/Documents/Perso
 alias code=codium
+alias trust=$HOME/Documents/trusthq
+alias trustinfra=$HOME/Documents/trusthq/infrastructure/
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin

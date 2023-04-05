@@ -220,6 +220,7 @@ title_align center
 
 # Startup apps
 exec 1password --silent
+exec flameshot
 exec --no-startup-id ulauncher
 exec_always picom
 
@@ -241,8 +242,8 @@ exec_always sh ~/.config/i3/scripts/auto-display.sh
 exec_always sh ~/.config/i3/scripts/polybar.sh
 
 # Interactive screenshot
-bindsym --release $mod+Shift+s exec "scrot -s -e 'xclip -selection clipboard -t image/png -i $f' $HOME/Pictures/captures/capture.png"
-
+# bindsym --release $mod+Shift+s exec "scrot -s -e 'xclip -selection clipboard -t image/png -i $f' $HOME/Pictures/captures/capture.png"
+bindsym --release $mod+Shift+s exec "flameshot gui"
 # System actions
 bindsym $mod+Shift+Delete exec "i3-nagbar -t warning -m 'Shutdown ?' -B 'Yes' 'systemctl poweroff -i'"
 bindsym $mod+Shift+o exec "systemctl suspend"
