@@ -211,12 +211,13 @@ client.background       #FFFFFF
 # Styles
 ## Background
 exec_always xsetroot -solid "#222233"
-exec_always feh --bg-scale /home/$USER/Pictures/Starry.png
+exec_always feh --bg-fill $HOME/dotfiles/wallpapers/space2.jpg
 
 ## Windows
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
 title_align center
+gaps inner 8
 
 # Startup apps
 exec 1password --silent

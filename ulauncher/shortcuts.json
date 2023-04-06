@@ -39,16 +39,6 @@
         "run_without_argument": true,
         "added": 1660056370.7017457
     },
-    "404ced3c-5748-4551-9072-337072eac2ab": {
-        "id": "404ced3c-5748-4551-9072-337072eac2ab",
-        "name": "Cardmarket",
-        "keyword": "mkm",
-        "cmd": "#!/usr/bin/bash\nfirefox https://www.cardmarket.com/en/Magic",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1660056453.8700855
-    },
     "997bf6ee-9ca7-4e21-90b5-9b2e318d73dq": {
         "id": "997bf6ee-9ca7-4e21-90b5-9b2e318d73dq",
         "name": "Trello",
@@ -59,24 +49,14 @@
         "run_without_argument": true,
         "added": 1660121760.2217128
     },
-    "f60206e8-243f-49c2-912e-52fbe6a908d8": {
-        "id": "f60206e8-243f-49c2-912e-52fbe6a908d8",
-        "name": "Ankama Launcher",
-        "keyword": "ankama",
-        "cmd": "#!/usr/bin/bash\ncd  /home/$USER/.ankama && ./AnkamaLauncher.AppImage",
+    "026a0dc8-3da4-46bf-87b1-94b6c401acd4": {
+        "id": "026a0dc8-3da4-46bf-87b1-94b6c401acd4",
+        "name": "Check Ip Absue",
+        "keyword": "ipabu",
+        "cmd": "https://www.abuseipdb.com/check/%s",
         "icon": null,
         "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1672659204.0526843
-    },
-    "ecd7f1e1-4dbc-4231-bed4-484127754852": {
-        "id": "ecd7f1e1-4dbc-4231-bed4-484127754852",
-        "name": "Minecraft",
-        "keyword": "minecraft",
-        "cmd": "#!/usr/bin/bash\ncd /home/$USER/.minecraft/launcher && ./minecraft-launcher",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": true,
-        "added": 1673342791.978984
+        "run_without_argument": false,
+        "added": 1680772503.7345207
     }
 }
