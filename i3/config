@@ -218,6 +218,7 @@ default_border pixel 0
 default_floating_border pixel 0
 title_align center
 gaps inner 8
+gaps outer 2
 
 # Startup apps
 exec 1password --silent

@@ -315,7 +315,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#900000"
+    background = "#337733"
     foreground = "#ffffff"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
@@ -330,7 +330,7 @@
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#900000"
+    background = "#900800"
     foreground = "#ffffff"
     frame_color = "#ff0000"
     timeout = 0
