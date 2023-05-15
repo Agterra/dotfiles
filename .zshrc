@@ -19,7 +19,7 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=$PATH:/home/$USER/.local/bin
 
-alias perso=/home/$USER/Documents/Perso
+alias perso=/home/$USER/Documents/perso
 alias code=codium
 alias trust=$HOME/Documents/trusthq
 alias trustinfra=$HOME/Documents/trusthq/infrastructure/
