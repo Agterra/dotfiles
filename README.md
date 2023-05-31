@@ -128,3 +128,7 @@ Icon=/usr/share/icons/appicon.png
 Comment=Application comment
 Categories=Office;
 ```
+
+## Chromium broken shaders
+
+Delete the folder located at `~/.config/chromium/Default/GPUCache`
